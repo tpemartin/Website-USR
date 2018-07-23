@@ -249,8 +249,8 @@
 
 @media screen and (min-width:700px) and (max-width:1208px) {
   .block-os-social .a2a_kit.a2a_kit_size_32.a2a_floating_style.a2a_vertical_style {
-    left:0;
-    right:auto;
+    left:auto;
+    right:0;
   }
 }
 
