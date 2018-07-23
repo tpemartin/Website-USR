@@ -4,8 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="台北大學社會實踐">
-    
     <!--meta-->
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="北大社科院USR「社區拜會」的回顧" />
@@ -37,6 +35,15 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
     <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="box-shadow: 0px 0px 8px 1px #929292">
         <div class="container"><a class="navbar-brand" href="../index.html" style="font-size:24px;">社會責任實踐平台</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
@@ -67,8 +74,8 @@
                                     <!--
                                     <a href="/#facebook" target="_blank" class="a2a_button_facebook a2a_counter" ref="nofollow">
 -->
-                                    <div class="a2a_button_facebook" 
-                                          data-sharer="facebook" data-url="https://ntpuecon.github.io/Website-USR/news_archive/blog-post-2.html">
+                                    <div data-href="https://ntpuecon.github.io/Website-USR/news_archive/blog-post-2.html" data-layout="button" data-size="small" data-mobile-iframe="true">
+                                        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fntpuecon.github.io%2FWebsite-USR%2Fnews_archive%2Fblog-post-2.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
                                     <span class="a2a_svg a2a_s__default a2a_s_facebook" style="background-color: rgb(59, 89, 152);">
                                         <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                   
@@ -79,6 +86,7 @@
                                         </svg>
                                     </span>
                                     <span class="a2a_label">facebook</span>
+                                        </a>
                                     </div>
                                     <!--
                                     </a>
